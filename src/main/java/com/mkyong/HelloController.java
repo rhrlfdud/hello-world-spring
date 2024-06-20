@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @RequestMapping(value={"/", "/hmpg"})
+    @RequestMapping(value={"/", "/admin"})
     String hello() {
-        return "Hello World, Spring Boot!";
+        return "Hello World, Spring Boot! \r\n Admin";
     }
 
 }
