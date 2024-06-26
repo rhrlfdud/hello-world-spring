@@ -11,7 +11,7 @@ public class HelloController {
         return "Hello World, Spring Boot! \r\n Admin";
     }
 
-    @RequestMapping(value={"/version"})
+    @RequestMapping(value={"/version"}, method = RequestMethod.GET)
     String version() {
         return "V1";
     }
