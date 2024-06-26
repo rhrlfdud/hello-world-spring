@@ -10,4 +10,9 @@ public class HelloController {
     String hello() {
         return "Hello World, Spring Boot! \r\n Admin";
     }
+
+    @RequestMapping(value={"/version", "/v"})
+    String version() {
+        return "Admin : V1";
+    }
 }
