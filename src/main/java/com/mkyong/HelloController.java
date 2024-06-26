@@ -11,10 +11,4 @@ public class HelloController {
     String hello() {
         return "Hello World, Spring Boot! \r\n Admin";
     }
-
-    @GetMapping(value="/version")
-    String version() {
-        return "V1";
-    }
-
 }
