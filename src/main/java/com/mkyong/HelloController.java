@@ -12,7 +12,7 @@ public class HelloController {
     }
 
     @RequestMapping(value={"/version"})
-    String hello() {
+    String version() {
         return "V1";
     }
 
